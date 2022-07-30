@@ -1,6 +1,6 @@
 ---
 - name: Exercise for setting up server in an EC2
-  hosts: 44.204.150.218
+  hosts: all
   user: ubuntu
   become: true
   become_method: sudo
