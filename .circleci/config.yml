@@ -45,6 +45,7 @@ jobs:
     docker:
       - image: alpine:latest
     steps:
+      - run: apk add --no-cache aws-cli
       - run:
           name: Test Job
           command: return 1 
