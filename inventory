@@ -1,2 +1,2 @@
 [all]
-44.204.150.218
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].PublicIpAddress' --filters "Name=tag:Project,Values=udacity"
